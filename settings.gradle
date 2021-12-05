@@ -1,0 +1,16 @@
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "ArouterSample"
+include ':app'
+include ':mahao-compiler'
+include ':mahao-annotation'
+include ':mahao-api'
+include ':photo'
+include ':export'
+include ':share'
